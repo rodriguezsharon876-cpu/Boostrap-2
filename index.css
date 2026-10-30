@@ -1,86 +1,12 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    background-color: blueviolet;
-}
-
 .row > div {
-    height: auto;
-    padding: 10px;
+    height: 80px;
+    border: 1px solid black;
 }
 
-.caja1 { background-color: red; }
-.caja2 { background-color: blue; }
-.caja3 { background-color: green; }
-.caja4 { background-color: yellow; }
-.caja5 { background-color: orange; }
-.caja6 { background-color: purple; }
-.caja7 { background-color: pink; }
-.caja8 { background-color: cyan; }
-.caja9 { background-color: brown; }
-.caja10 { background-color: rgb(52, 19, 19); }
-.caja11 { background-color: lime; }
-.caja12 { background-color: rgb(231, 154, 126); }
-.caja13 { background-color: rgb(214, 206, 155); }
-
-.caja1 {
-    min-height: 50px;
+.amarillo{
+    background-color: yellow;
 }
 
-.caja2, .caja3 {
-    min-height: 200px;
-}
-
-.caja4 {
-    min-height: 180px;
-}
-
-.caja5, .caja6, .caja7 {
-    min-height: 130px;
-}
-
-.caja8, .caja9 {
-    min-height: 110px;
-}
-
-.caja10, .caja11, .caja12, .caja13 {
-    min-height: 70px;
-}
-
-@media (min-width: 768px) {
-
-    .caja2, .caja3 {
-        min-height: 230px;
-    }
-
-    .caja4, .caja5, .caja6, .caja7 {
-        min-height: 130px;
-    }
-
-    .caja8, .caja9,
-    .caja10, .caja11, .caja12, .caja13 {
-        min-height: 110px;
-    }
-}
-
-@media (min-width: 1200px) {
-
-    .caja2 {
-        min-height: 240px;
-    }
-
-    .caja3, .caja4, .caja5 {
-        min-height: 160px;
-    }
-
-    .caja6, .caja7, .caja8, .caja9 {
-        min-height: 120px;
-    }
-
-    .caja10, .caja11, .caja12, .caja13 {
-        min-height: 90px;
-    }
+.morado{
+    background-color: rgb(75, 0, 85);
 }
